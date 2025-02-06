@@ -1,0 +1,20 @@
+/* Remove unused styles and add button styling */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.visualize-btn {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.visualize-btn:hover {
+  background: #45a049;
+}
