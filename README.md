@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+# 🚀 Shortest Path Visualizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![React](https://img.shields.io/badge/React-18.2.0-blue)](https://reactjs.org/)
+[![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
 
-## Available Scripts
+A interactive visualization tool for pathfinding algorithms implemented with React. Watch Dijkstra's algorithm in action as it finds the shortest path between nodes on a grid!
 
-In the project directory, you can run:
 
-### `npm start`
+## 🌟 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🧭 **Dijkstra's Algorithm** visualization with optimal pathfinding
+- 🎨 **Interactive grid** with dynamic node manipulation
+- 🖱️ **Click-and-drag** wall creation
+- 🌈 **Animated transitions** for visited nodes and shortest path
+- 🧹 **Clear grid** functionality for quick resets
+- 📱 **Responsive design** that works on different screen sizes
+- ⚡ **Optimized performance** with React state management
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Technologies Used
 
-### `npm test`
+- React.js
+- JavaScript (ES6+)
+- CSS Animations
+- HTML5 Canvas (potential future implementation)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Getting Started
 
-### `npm run build`
+### Prerequisites
+- Node.js (v14+)
+- npm (v6+)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the repository**
+```bash
+git clone https://github.com/your-username/shortest-path-visualizer.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Install dependencies**
+```bash
+cd shortest-path-visualizer
+npm install
+```
 
-### `npm run eject`
+3. **Run the development server**
+```bash
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Open in browser**
+```
+http://localhost:3000
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🎮 How to Use
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Place Walls**
+   - Click and drag to create barriers
+   - Click existing walls to remove them
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Visualize Dijkstra's Algorithm**
+   - Click the "Visualize Dijkstra's Algorithm" button
+   - Watch the algorithm explore nodes (blue) and find the shortest path (yellow)
 
-## Learn More
+3. **Clear Grid**
+   - Use the "Clear Grid" button to reset everything
+   - Start nodes (green) and end nodes (red) remain fixed
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. **Interactive Features**
+   - Hover over nodes to see coordinate tooltips
+   - Real-time visualization updates
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions are welcome! Please follow these steps:
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-### Analyzing the Bundle Size
+## 📜 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Distributed under the MIT License. See `LICENSE` for more information.
 
-### Making a Progressive Web App
+## 🙏 Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Dijkstra's algorithm pseudocode from CLRS Introduction to Algorithms
+- React documentation for best practices
+- Inspired by various pathfinding visualization projects
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
